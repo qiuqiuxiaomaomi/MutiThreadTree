@@ -1,4 +1,4 @@
-package com.bonaparte.service;
+package com.bonaparte.bean;
 
 import java.util.concurrent.Callable;
 

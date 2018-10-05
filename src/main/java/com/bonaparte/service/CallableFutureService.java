@@ -1,5 +1,6 @@
 package com.bonaparte.service;
 
+import com.bonaparte.bean.CallableFuture;
 import org.springframework.stereotype.Service;
 
 import java.util.Random;
