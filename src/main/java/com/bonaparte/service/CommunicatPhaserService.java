@@ -8,5 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CommunicatPhaserService {
 
+    public void phaserCheck(){
 
+    }
 }
