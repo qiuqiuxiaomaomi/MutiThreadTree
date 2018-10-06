@@ -7,6 +7,13 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class CommunicatThreadLocalService {
+    ThreadLocal<Integer> threadLocal = new ThreadLocal<>();
 
+    public void threadLocalCheck(){
+        threadLocal.set(1);
+    }
 
+    public Integer threadLocalLoad(){
+        return threadLocal.get();
+    }
 }
