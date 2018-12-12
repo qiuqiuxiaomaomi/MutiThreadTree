@@ -4,6 +4,14 @@
 ![](https://i.imgur.com/HB8LB3C.png)
 
 <pre>
+实现多线程的几种方式：
+      1）继承Thread类，重新run方法；
+      2）实现Runnable接口，重写run方法，
+      3）通过Callable和FutureTask创建线程。
+      5）通过线程池创建线程。
+</pre>
+
+<pre>
 Fork/Join
 
       ForkJoin是JDK7提供的原生多线程处理框架，其基本思想是将大任务切分成多个小任务，在处理
